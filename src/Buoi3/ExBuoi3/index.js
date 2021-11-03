@@ -33,7 +33,7 @@ export default class ExBuoi3 extends Component {
     updateStatus: null,
   };
 
-  onPressIcon = iconStatus => {
+  onPressIcon = (iconStatus) => {
     this.setState({updateStatus: iconStatus});
   };
 

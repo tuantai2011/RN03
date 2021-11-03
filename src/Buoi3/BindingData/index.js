@@ -24,7 +24,7 @@ export default class BindingData extends Component {
     return <Text> {this.info} </Text>;
   }
 
-  // chỗ này bắt buộc phải sử dung arrow function thì con trỏ this. mới thuộc class để chạy được phương thức setState
+  // chỗ này bắt buộc phải sử dung arrow function,... class để chạy được phương thức setState
   onPressButton = (buttonName) => {
     console.log(buttonName +' press');
     this.setState({isLogin: true},() => {
